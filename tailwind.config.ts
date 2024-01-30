@@ -9,7 +9,14 @@ const config: Config = {
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {}
+    extend: {
+      height: theme => ({
+        "screen-75": "75vh"
+      }),
+      padding: theme => ({
+        "custom-paddin": "23.5px"
+      })
+    }
   },
   darkMode: "class",
   plugins: [nextui()]

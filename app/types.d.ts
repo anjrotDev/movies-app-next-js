@@ -29,3 +29,11 @@ interface Movie {
   vote_average: number;
   vote_count: number;
 }
+
+interface movieParams {
+  query: string;
+}
+
+interface ServerParams {
+  searchParams: movieParams;
+}
