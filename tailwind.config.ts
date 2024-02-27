@@ -11,10 +11,7 @@ const config: Config = {
   theme: {
     extend: {
       height: theme => ({
-        "screen-75": "75vh"
-      }),
-      padding: theme => ({
-        "custom-paddin": "23.5px"
+        "screen-1/3": "75vh"
       })
     }
   },
